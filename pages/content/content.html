@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>CONTENT</title>
+        <link  href="jquery.fancybox.css" rel="stylesheet">
+        <link rel="stylesheet" href="css-content.css" />
+    </head>
+    <body>
+        
+        <ul class="profile-menu">
+            <li><a href="#" class="profile-menu-trigger" data-trigger="dropdown">Главное меню</a>
+                <ul class="profile-submenu submenu">
+                    
+                    <li><a href="../../index.html">Главная страница</a></li>
+                    <li><a href="../member/member.html">Стать участником</a></li>
+                    <li><a href="../sponsors/sponsor.html">Спонсоры</a></li>
+                    <li><a href="#">Контент</a></li>
+                    <li><a href="../about_us/about.html">Обратная связь</a></li>
+                </ul>
+            
+            </li>
+
+        </ul>
+
+        <div id="orgi">Контент</div>
+        
+        <div id="box1">
+            <a data-fancybox="gallery" href="../../files/img/content/big/1.jpg">
+                <img src="../../files/img/content/min/1.jpg">
+            </a>
+            
+            <a data-fancybox="gallery" href="../../files/img/content/big/2.jpg">
+                <img src="../../files/img/content/min/2.jpg">
+            </a>
+
+            <a data-fancybox="gallery" href="../../files/img/content/big/3.jpg">
+                <img src="../../files/img/content/min/3.jpg">
+            </a>
+            
+            <a data-fancybox="gallery" href="../../files/img/content/big/4.jpg">
+                <img src="../../files/img/content/min/4.jpg">
+            </a>
+
+            <a data-fancybox="gallery" href="../../files/img/content/big/5.jpg">
+                <img src="../../files/img/content/min/5.jpg">
+            </a>
+
+            <a data-fancybox="gallery" href="../../files/img/content/big/6.jpg">
+                <img src="../../files/img/content/min/6.jpg">
+            </a>
+
+            <a data-fancybox="gallery" href="../../files/img/content/big/7.jpg">
+                <img src="../../files/img/content/min/7.jpg">
+            </a>
+
+            <a data-fancybox="gallery" href="../../files/img/content/big/8.jpg">
+                <img src="../../files/img/content/min/8.jpg">
+            </a>
+
+            <a data-fancybox="gallery" href="../../files/img/content/big/9.jpg">
+                <img src="../../files/img/content/min/9.jpg">
+            </a>
+
+            <a data-fancybox="gallery" href="../../files/img/content/big/10.jpg">
+                <img src="../../files/img/content/min/10.jpg">
+            </a>
+        </div>
+        
+        <div id="start1">
+            <p>Кликните на картинку ниже, чтобы посмотреть ролик</p>
+            <a data-fancybox href="https://youtu.be/GimmzHHSIyg">
+                
+                <img src="../../files/img/start.jpg">
+            </a>
+        </div>    
+
+        <script>
+            const config = { //чтобы картинки пролистывались с самого начала
+                loop: true,
+            };
+
+
+
+            $('[data-fancybox="gallery"]').fancybox(config); //чтобы картинки пролистывались с самого начала для первых 3
+
+
+            //https://web.archive.org/web/20210325170940/https://fancyapps.com/fancybox/3/docs/#video 
+            //https://web.archive.org/web/20210304013040/https://github.com/fancyapps/fancyBox
+            
+        </script>
+
+
+
+
+
+
+
+
+        <script charset="utf-8" src="../../JS/jquery-3.6.0.js"></script>
+        <script charset="utf-8" src="../../JS/JS_MAIN.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="jquery.fancybox.js"></script>
+    </body>
+</html>
+

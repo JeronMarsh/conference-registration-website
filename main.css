@@ -1,0 +1,345 @@
+@font-face {
+  font-family: SourceSansPro-Regular; /* Имя шрифта */
+  src: url(fonts/SourceSansPro-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+  font-family: SourceSansPro-Regular;
+  background-color: rgb(179, 224, 241);
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 1;
+  font-size: 70px;
+  font-style: italic;
+  padding-top: 20;
+  padding-left: 50;
+  color: rgb(69, 115, 201);
+  text-shadow: 1px 1px 1px #000;
+}
+
+span {
+  font-weight: 400;
+  line-height: 1.37;
+  font-size: 24px;
+  padding-left: 50;
+  color: rgb(8, 90, 241);
+}
+
+#data {
+  font-weight: 700;
+  line-height: 1.37;
+  font-size: 25px;
+  padding-top: 20;
+  padding-left: 50;
+  color: rgb(8, 90, 241);
+}
+
+#place {
+  font-weight: 700;
+  line-height: 1.37;
+  font-size: 30px;
+  text-align: right;
+  padding-top: 20;
+  padding-right: 20;
+  color: rgb(4, 40, 107);
+}
+
+#this_place {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 23px;
+  text-align: right;
+  padding-top: 20;
+  padding-right: 20;
+  color: rgb(6, 28, 70);
+}
+
+#begin {
+  background-image: url(files/img/fon1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#begin2 {
+  display: flex;
+  background-color: rgb(147, 210, 233);
+  height: 530;
+}
+
+#o_forum {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.2;
+  padding-top: 40;
+  padding-left: 50;
+  color: rgb(69, 115, 201);
+  text-shadow: 1px 1px 1px #000;
+}
+
+#describing p {
+  font-weight: 600;
+  line-height: 1.7;
+  font-size: 18px;
+  text-align: left;
+  max-width: 600px;
+  padding-top: 20;
+  padding-left: 150;
+  color: rgb(8, 90, 241);
+}
+
+#programm {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 37px;
+  color: #191769;
+  text-align: center;
+}
+
+#under_programm {
+  font-weight: 700;
+  line-height: 1.37;
+  font-size: 22px;
+  text-align: center;
+}
+
+#blocks {
+  display: flex;
+  justify-content: space-around;
+}
+
+#block1 {
+  width: 350;
+  height: 200;
+  border: 2px solid rgb(2, 175, 255);
+  box-shadow: 3px 3px 5px rgb(2, 175, 255);
+  margin-left: 50;
+  transition-duration: 0.4s;
+}
+
+#block1:hover {
+  border: 2px solid rgb(105, 82, 209);
+  box-shadow: 2px 2px 5px rgb(105, 82, 209);
+  margin-top: -10;
+  transition-duration: 0.4s;
+}
+
+#block2 {
+  width: 350;
+  height: 200;
+  border: 2px solid rgb(2, 175, 255);
+  box-shadow: 3px 3px 5px rgb(2, 175, 255);
+  margin-left: 50;
+  transition-duration: 0.4s;
+}
+
+#block2:hover {
+  border: 2px solid rgb(105, 82, 209);
+  box-shadow: 2px 2px 5px rgb(105, 82, 209);
+  margin-top: -10;
+  transition-duration: 0.4s;
+}
+
+#block3 {
+  width: 350;
+  height: 200;
+  border: 2px solid rgb(2, 175, 255);
+  box-shadow: 3px 3px 5px rgb(2, 175, 255);
+  margin-left: 50;
+  transition-duration: 0.4s;
+}
+
+#block3:hover {
+  border: 2px solid rgb(105, 82, 209);
+  box-shadow: 2px 2px 5px rgb(105, 82, 209);
+  margin-top: -10;
+  transition-duration: 0.4s;
+}
+
+.n1 {
+  font-weight: 700;
+  line-height: 1.37;
+  font-size: 22px;
+  padding-left: 30;
+}
+
+.n2 {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  padding-left: 30;
+  margin-bottom: -15;
+}
+
+.n3 {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  padding-left: 30;
+}
+
+#blocks2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#block21 {
+  width: 350;
+  height: 200;
+  border: 2px solid rgb(2, 175, 255);
+  box-shadow: 3px 3px 5px rgb(2, 175, 255);
+  margin-left: 50;
+  margin-top: 40;
+  transition-duration: 0.4s;
+}
+
+#block21:hover {
+  border: 2px solid rgb(105, 82, 209);
+  box-shadow: 2px 2px 5px rgb(105, 82, 209);
+  margin-top: 30;
+  transition-duration: 0.4s;
+}
+
+#under_programm2 {
+  font-weight: 700;
+  line-height: 1.37;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: -20;
+}
+
+#block22 {
+  width: 350;
+  height: 200;
+  border: 2px solid rgb(2, 175, 255);
+  box-shadow: 3px 3px 5px rgb(2, 175, 255);
+  margin-left: 50;
+  margin-top: 40;
+  transition-duration: 0.4s;
+}
+
+#block22:hover {
+  border: 2px solid rgb(105, 82, 209);
+  box-shadow: 2px 2px 5px rgb(105, 82, 209);
+  margin-top: 30;
+  transition-duration: 0.4s;
+}
+
+#block23 {
+  width: 350;
+  height: 200;
+  border: 2px solid rgb(2, 175, 255);
+  box-shadow: 3px 3px 5px rgb(2, 175, 255);
+  margin-left: 50;
+  margin-top: 40;
+  transition-duration: 0.4s;
+}
+
+#block23:hover {
+  border: 2px solid rgb(105, 82, 209);
+  box-shadow: 2px 2px 5px rgb(105, 82, 209);
+  margin-top: 30;
+  transition-duration: 0.4s;
+}
+
+#member {
+  margin-top: 70;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 34px;
+  text-align: center;
+  transition-duration: 0.4s;
+  padding-bottom: 70px;
+}
+#member:hover {
+  font-size: 40px;
+
+  transition-duration: 0.4s;
+}
+
+#member a:hover {
+  color: #4141f0;
+}
+#member a {
+  color: #191769;
+}
+
+#member a {
+  text-decoration: none;
+}
+
+#begin3 {
+  padding-top: 20;
+  background-image: url(files/img/fon2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700;
+}
+
+#last {
+  background-color: rgb(179, 224, 241);
+}
+
+.profile-menu {
+  list-style: none;
+  float: right;
+  margin-top: 33px;
+  margin-right: 20px;
+  padding-bottom: 100px;
+}
+
+.submenu {
+  list-style: none;
+  padding: 0;
+  border: 1px solid rgb(47, 0, 255);
+  background: rgb(69, 115, 201);
+  margin-top: 25;
+  box-shadow: 2px 2px 5px rgb(47, 0, 255);
+  position: absolute;
+  right: 10px;
+  display: none;
+}
+
+.submenu a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+  font-weight: 700;
+}
+
+.profile-menu-trigger {
+  text-decoration: none;
+  display: block;
+  padding: 10px 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+  font-weight: 700;
+  border: 1px solid rgb(47, 0, 255);
+  background: rgb(69, 115, 201);
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+}
+
+.submenu a:hover {
+  background: rgb(175, 199, 243);
+}
+
+.profile-menu-trigger:hover {
+  background: rgb(175, 199, 243);
+}
+
+.submenu.active {
+  display: block;
+}

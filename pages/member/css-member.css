@@ -1,0 +1,181 @@
+@font-face {
+    font-family: SourceSansPro-Regular; /* Имя шрифта */
+    src: url(../../fonts/SourceSansPro-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+   
+   body {
+    font-family: SourceSansPro-Regular;
+    background-color: rgb(179, 224, 241);
+    
+   }
+
+
+   .profile-menu {
+    list-style: none;
+    float: right;
+    margin-top: 33px;
+    margin-right: 20px;
+    padding-bottom: 100px;
+  }
+
+  .submenu {
+    list-style: none;
+    padding: 0;
+    border: 1px solid rgb(47, 0, 255);
+    background: rgb(69, 115, 201);
+    margin-top: 25;
+    box-shadow: 2px 2px 5px rgb(47, 0, 255);
+    position: absolute;
+    right: 10px;
+    display: none;
+    margin-right:17;
+  }
+
+  .submenu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    font-weight: 700;
+    
+  }
+
+  .profile-menu-trigger {
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    font-weight: 700;
+    border: 1px solid rgb(47, 0, 255);
+    background: rgb(69, 115, 201);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+    margin-right:17;
+  }
+
+
+  .submenu a:hover {
+    background: rgb(175, 199, 243);
+  }
+
+  .profile-menu-trigger:hover {
+    background: rgb(175, 199, 243);
+  }
+
+  .submenu.active {
+    display: block;
+  }
+
+  #orgi div{
+   
+    color: rgb(21, 89, 216);
+    width:600;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #202124;
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0%;
+    margin-left: 300;
+    padding-top: 10;
+    
+    
+  }
+
+#orgi p {
+    color: rgb(21, 89, 216);
+    width:600;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #202124;
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0%;
+    margin-left: 300;
+    margin-bottom: -15;
+   
+}
+
+.begin1 {
+    margin-top: 0px;
+    background-color: rgb(162, 181, 218);
+    
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 0px;
+    background-image: url(../../files/img/fon2\ копия.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+   
+}
+
+#orgi2 p {
+    color: rgb(21, 89, 216);
+    width:600;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #202124;
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0%;
+    margin-left: 300;
+    padding-top: 10;
+}
+
+#orgi2 input{
+    margin-left: 300;
+    border:none;
+}
+  
+
+#orgi2 div {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#orgi2 div span{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #202124;
+    line-height: 135%;
+}
+
+
+.textbutton {
+    display: block;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(47, 0, 255);
+    font-size: 18px;
+    color: rgb(175, 199, 243);
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+    margin-left: 50;
+}
+
+.textbutton:hover {
+    background-color: rgb(28, 86, 194);
+    color: rgb(0, 0, 0);
+}
+
+.textbutton:active {
+    background-color: #eee;
+    
+}
